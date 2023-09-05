@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="home.css">
+<title>Graphic Web Page</title>
+</head>
+<body>
+     <nav class="top"><ul>
+    <li><a href ="aboutus.html">About us</a></li>
+    <li><a id="exit">Exit</a></li>
+     </ul></nav>
+     <div class="center">
+    <div class="options">
+      <h1>PROPAGATOR</h1>
+      <p><i> "Problem Collection and Display System for Public and Private Usage" is a versatile web-based application designed to facilitate the efficient collection, organization, and presentation of various types of problems. This system aims to serve both public and private needs by providing a platform where users can submit, manage, and access problems while maintaining appropriate privacy levels.The "Problem Collection and Display System for Public and Private Usage" is a versatile web-based application designed to facilitate the efficient collection, organization, and presentation of various types of problems. This system aims to serve both public and private needs by providing a platform where users can submit, manage, and access problems while maintaining appropriate privacy levels.</i></p>
+      <button  id= "public" class="option-button">PUBLIC</button>
+      <button id="private" class="option-button ">PRIVATE</button>
+    </div>
+</div>
+
+<script>
+
+    var public = document.getElementById("public");
+    var private = document.getElementById("private");
+    public.addEventListener("click", function() {
+      window.location.href = "sampl.html";
+    });
+    private.addEventListener("click", function() {
+      window.location.href = "login.html";
+    });
+    document.getElementById("exit").addEventListener("click", function() {
+      window.close();
+      });
+  </script>
+</body>
+</html>

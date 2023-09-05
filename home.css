@@ -1,0 +1,81 @@
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+     height: 100vh;
+    background-image:url(/pxfuel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top {
+    font-size: 20px;
+    background-color:transparent;
+    color: #f2eeee;
+    padding: 10px 60px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .top ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    gap: 70px;
+  }
+  .top li {
+    display: inline;
+  }
+  
+  .top a {
+    text-decoration: none;
+    color: #d8d2d2;
+  }
+  .top a{
+    transition: font-size 0.3s; 
+  }
+  .top a:hover {
+    font-size: 21px;
+    font-weight: bold;
+  }
+ .center
+ {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 120px;
+    padding: 40px;
+ }
+  .options {
+    background-color:transparent;
+    padding: 20px;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+  }
+  .option-button {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+  }
+  h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ebff34;
+    padding-bottom: 0px;
+  }
+  p{
+    color:#f0f0f0;
+    font-style: bold;
+    font-size: 20px;
+ 
+  }
+  .option-button:hover {
+    background-color: #2980b9;
+  }

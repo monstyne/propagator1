@@ -1,0 +1,93 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("/wallpaperflare.com_wallpaper.jpg");
+    background-size: cover;
+    background-color: #f4f4f4;
+  }
+  .top {
+    font-size: 20px;
+    background-color:transparent;
+    color: #f2eeee;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .top ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 3;
+    display: flex;
+    gap: 70px;
+  }
+  .top li {
+    display: inline;
+  }
+  
+  .top a {
+    text-decoration: none;
+    color: #d8d2d2;
+  }
+  .top a{
+    transition: font-size 0.3s; 
+  }
+  .top a:hover {
+    font-size: 21px;
+    font-weight: bold;
+  }
+  .container
+  { margin: 100px;
+    padding: 9px;
+    height: vh;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin-bottom: 2%;
+  }
+  .login-container {
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+  }
+  
+  h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #e7d2df;
+    border-radius: 5px;
+  }
+input:hover{
+    background-color:#eeeeee;
+}
+  button {
+    width: 50%;
+    margin-left: 25%;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+    position: relative;
+  }
+  

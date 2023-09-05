@@ -1,0 +1,24 @@
+.top-nav {
+    background-color:transparent;
+    color: #f2eeee;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .top-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 3;
+    display: flex;
+    gap: 50px;
+  }
+  
+  .top-nav li {
+    display: inline;
+  }
+  
+  .top-nav a {
+    text-decoration: none;
+    color: #d8d2d2;
+  }
