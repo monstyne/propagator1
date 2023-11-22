@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +6,7 @@
   
   body {
     font-family: Arial, sans-serif;
-    background-image: url("./20230811_202915.jpg");
+    background-image: url(./20230811_202915.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
